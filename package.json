@@ -1,0 +1,52 @@
+{
+  "name": "vms-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitTechcurve/vms-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitTechcurve/vms-backend/issues"
+  },
+  "homepage": "https://github.com/amitTechcurve/vms-backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1251.0",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.0.3",
+    "date-fns": "^3.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "kue": "^0.11.1",
+    "moment-timezone": "^0.5.43",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
+    "node-cron": "^3.0.3",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^3.1.0",
+    "oracledb": "^6.0.2",
+    "sequelize": "^6.33.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "util": "^0.12.5",
+    "validator": "^13.9.0",
+    "xlsx": "^0.18.5"
+  }
+}
